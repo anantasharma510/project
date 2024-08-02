@@ -1,0 +1,66 @@
+body{
+
+    font-family: Arial, sans-serif; /* Set font family */
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+
+}
+.container {
+    background-color: #fff; /* Set background color */
+    max-width: 400px; /* Set maximum width */
+    margin: 90px auto; /* Center the container horizontally with top margin */
+    padding: 20px; /* Add padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Add shadow effect */
+    border-radius: 10px; /* Add border radius */
+}
+
+
+    h2{
+        margin-top: 0;
+        text-align: center;
+    }
+    label {
+        display: block; /* Display labels as block elements */
+        margin-bottom: 6px; /* Add bottom margin */
+    }
+
+    
+    input[type="text"],
+input[type="password"],
+
+
+textarea {
+    width: 100%; /* Set width to 100% */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add bottom margin */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+button{
+background-color: #007bff;
+color:#fff;
+padding:10px 20px;
+border:none;
+border-radius:6px;
+cursor:pointer;
+margin-top:10px;
+}
+button:hover{
+    background-color: #0069d9
+    
+}
+    
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Increased padding */
+    position: fixed; /* Fixed position */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Exampl
