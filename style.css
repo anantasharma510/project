@@ -1,0 +1,101 @@
+/* Reset default styles */
+body {
+    font-family: Arial, sans-serif; /* Set font family */
+    background-color: #f4f4f4; /* Set background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Main container styles */
+.container {
+    background-color: #fff; /* Set background color */
+    max-width: 400px; /* Set maximum width */
+    margin: 50px auto; /* Center the container horizontally with top margin */
+    padding: 20px; /* Add padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+    border-radius: 10px; /* Add border radius */
+}
+
+/* Heading styles */
+h2, h3 {
+    margin-top: 0; /* Remove top margin */
+}
+
+h4 {
+    margin-top: 30px; /* Add top margin */
+    color: rgb(2, 136, 141); /* Set text color */
+    text-align: center; /* Center align text */
+    font-size: larger;
+}
+
+/* Label styles */
+label {
+    display: block; /* Display labels as block elements */
+    margin-bottom: 6px; /* Add bottom margin */
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="contact"],
+textarea {
+    width: 100%; /* Set width to 100% */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add bottom margin */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Button styles */
+button {
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 10px 20px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Set cursor to pointer */
+    margin-top: 10px; /* Add top margin */
+}
+
+button:hover {
+    background-color: #0069d9; /* Change background color on hover */
+}
+
+/* Paragraph styles */
+p {
+    margin-top: 20px; /* Add top margin */
+    font-size: 14px; /* Set font size */
+}
+
+/* Link styles */
+a {
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove default underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    text-align: center; /* Center align text */
+    padding: 5px; /* Add padding */
+    margin-top: 10px; /* Add top margin */
+    position: relative; /* Fixed position at the bottom */
+    width: 100%; /* Full width */
+    bottom: 0; /
+     }
+/* Example media query for smartphones */
+@media only screen and (max-width: 480px) {
+    /* CSS rules specific to smartphones */
+}
+
+/* Example media query for tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* CSS rules specific to tablets */
+}

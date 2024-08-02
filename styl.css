@@ -1,0 +1,138 @@
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif; /* Set font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f4f4f4; /* Set background color */
+}
+
+/* Styling for the main container */
+.container {
+    max-width: 800px; /* Set maximum width */
+    margin: 50px auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #fff; /* Set background color */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    text-align: center; /* Center align text */
+}
+
+/* Styling for the semester options */
+.semester-options {
+    margin-top: 20px; /* Add space above the options */
+}
+
+.semester-options a {
+    display: block; /* Display as block element */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add space below each option */
+    background-color: #f0f0f0; /* Set background color */
+    color: #333; /* Set text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.semester-options a:hover {
+    background-color: #e0e0e0; /* Change background color on hover */
+}
+
+/* Styling for the navigation bar */
+.nav-bar {
+    background-color: #1d1b1b; /* Set background color */
+    overflow: hidden; /* Hide overflowing content */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space elements evenly */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Add padding to space out the elements */
+}
+
+/* Styling for navigation links */
+.nav-bar a {
+    color: white; /* Set text color */
+    text-decoration: none; /* Remove underline */
+    padding: 16px 17px; /* Add padding */
+    text-align: center; /* Center align text */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.nav-bar a:hover {
+    background-color: #ddd; /* Change background color on hover */
+    color: rgb(5, 5, 5); /* Change text color on hover */
+}
+
+.nav-bar a.active {
+    background-color: #4CAF50; /* Set active link background color */
+    color: white; /* Set active link text color */
+}
+
+/* Styling for the search button */
+.search-btn {
+    background-color: #4CAF50; /* Set button background color */
+    border: none; /* Remove border */
+    color: white; /* Set text color */
+    padding: 14px 18px; /* Add padding */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Set cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add transition effect */
+    margin:10px; /* Add margin */
+}
+
+.search-btn:hover {
+    background-color: #45a049; /* Change background color on hover */
+}
+
+/* Styling for the search form */
+.search-form {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+.search-form input[type="text"] {
+    padding: 10px; /* Add padding */
+    border: none; /* Remove border */
+    border-radius: 5px 5px 5px 5px; /* Add border radius for rounded corners */
+}
+
+/* Responsive styles */
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 0 10px; /* Reduce container padding for smaller screens */
+    }
+    .nav-bar {
+        flex-direction: column; /* Stack navigation links vertically */
+        align-items: center; /* Center navigation links vertically */
+    }
+    .nav-bar a, .search-form {
+        margin: 5px 0; /* Add margin to navigation links and search form */
+    }
+}
+
+/* For tablets */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .container {
+        max-width: 800px; /* Adjust maximum width for tablets */
+    }
+}
+
+/* For laptops and desktops */
+@media only screen and (min-width: 901px) {
+    .container {
+        max-width: 1200px; /* Adjust maximum width for larger screens */
+    }
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    text-align: center; /* Center align text */
+    padding: 5px; /* Add padding */
+    margin-top: 10px; /* Add top margin */
+    position: relative; /* Set position to relative */
+    width: 100%; /* Set width to 100% */
+    bottom: 0; /* Align to the bottom */
+}

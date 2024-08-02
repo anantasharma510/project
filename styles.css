@@ -1,0 +1,99 @@
+/* Styles for the entire body */
+body {
+    font-family: arial,sans-serif; /* Set the font family for text */
+    background-color: #f4f4f4; /* Set the background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styles for the container holding the login form */
+.container {
+    background-color: #fff; /* Set background color */
+    width: 450px; /* Set width */
+    margin: 70px auto; /* Center the container horizontally */
+    padding: 25px; /* Add padding inside the container */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: px opx 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+/* Styles for the main heading */
+h2 {
+    margin-top: 0; /* Remove top margin */
+    font-size: large; /* Set font size */
+    text-align: center; /* Center align text */
+}
+
+/* Styles for the secondary heading */
+h4 {
+    margin-top: 30px; /* Add top margin */
+    color: rgb(2, 136, 141); /* Set text color */
+    text-align: center; /* Center align text */
+}
+
+/* Styles for labels */
+label {
+    display: block; /* Make labels block-level elements */
+    margin-bottom: 5px; /* Add bottom margin */
+}
+
+/* Styles for text input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Set width to 100% */
+    padding: 10px; /* Add padding */
+    margin-bottom: 10px; /* Add bottom margin */
+    border-radius: 5px; /* Add rounded corners */
+    border: 1px solid #ccc; /* Add border */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+/* Styles for the login button */
+button {
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Set cursor to pointer */
+}
+
+/* Hover effect for the login button */
+button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Styles for paragraphs */
+p {
+    margin-top: 20px; /* Add top margin */
+}
+
+/* Styles for links */
+a {
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Styles for the footer */
+footer {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    text-align: center; /* Center align text */
+    padding: 5px; /* Add padding */
+    margin-top: 10px; /* Add top margin */
+    position: fixed; /* Fixed position at the bottom */
+    width: 100%; /* Full width */
+    bottom: 0; /* Stick it to the bottom of the viewport */
+}
+/* Example media query for smartphones */
+@media only screen and (max-width: 480px) {
+    /* CSS rules specific to smartphones */
+}
+
+/* Example media query for tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* CSS rules specific to tablets */
+}

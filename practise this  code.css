@@ -1,0 +1,111 @@
+/* General styling for the entire page */
+body {
+    font-family: Arial, sans-serif; /* Specify the font family */
+    background-color: #f8f8f8; /* Set the background color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styling for the main container */
+.container {
+    max-width: 800px; /* Set maximum width */
+    margin: 45px auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #fff; /* Set background color */
+    border-radius: 20px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Add shadow effect */
+}
+
+/* Styling for the main heading */
+h1 {
+    text-align: center; /* Center the text */
+    margin-bottom: 30px; /* Add space below the heading */
+}
+
+/* Styling for the profile information section */
+.profile-info {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+/* Styling for the profile picture */
+.profile-picture {
+    margin-right: 30px; /* Add space to the right of the profile picture */
+}
+
+.profile-picture img {
+    width: 150px; /* Set width of the profile picture */
+    height: 150px; /* Set height of the profile picture */
+    border-radius: 50%; /* Make the profile picture round */
+    object-fit: cover; /* Ensure the image covers the entire space */
+    border: 3px solid #ccc; /* Add a border around the picture */
+}
+
+/* Styling for the "Change Photo" button */
+.change-photo-btn {
+    display: block; /* Make the button a block element */
+    margin-top: 10px; /* Add space above the button */
+    padding: 5px 10px; /* Add padding to the button */
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Set cursor to pointer on hover */
+}
+.change-photo-btn{
+    background-color: #0056b3;
+}
+
+/* Styling for the user details section */
+.user-details {
+    flex-grow: 1; /* Allow the details section to grow */
+}
+
+.user-details h2 {
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.user-details p {
+    margin-bottom: 10px; /* Add space below each paragraph */
+}
+
+/* Styling for the action buttons (Edit Profile, Change Password, Logout) */
+.edit-profile-btn,
+.change-password-btn,
+.logout-btn{
+    display: inline-block; /* Make the buttons inline-block elements */
+    margin-top: 20px; /* Add space above the buttons */
+    padding: 8px 16px; /* Add padding to the buttons */
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Set cursor to pointer on hover */
+    text-decoration: none; /* Remove underline for anchor links */
+    text-align: center; /* Center text */
+}
+.home-btn{
+    /* CSS for the "Home" link */
+ margin: 6px auto;
+    display: inline-block; /* Display as inline-block */
+    padding: 10px 17px; /* Add padding */
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 25px; /* Add border radius for rounded corners */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+/* Hover effect */
+.home-link:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+
+
+/* Styling for button hover effects */
+.edit-profile-btn:hover,
+.change-password-btn:hover,
+.logout-btn:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
